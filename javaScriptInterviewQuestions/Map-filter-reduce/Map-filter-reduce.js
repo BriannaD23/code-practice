@@ -48,3 +48,4 @@ const addTwenty = students.map((student) => {
 })
 .filter((student) => student.marks > 60 ).reduce((acc ,curr) => acc + curr.marks,0 ) 
 console.log(addTwenty)
+//keep going
